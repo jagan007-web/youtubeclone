@@ -1,0 +1,107 @@
+.header{
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        
+        z-index: 100;
+
+        background-color: white;
+        border-bottom-width:1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(215, 215, 215);
+        
+}
+.left-section{
+       
+        display: flex;
+        align-items: center;
+}
+.hamburger{
+        height: 24px;
+        margin-left: 24px;
+        margin-right: 24px;
+}
+.youtube-logo{
+        height: 20px;
+}
+.middle-section{
+         flex: 1;
+         margin-left: 70px;
+         margin-right: 35px;
+         max-width: 480px;
+         display: flex;
+         align-items: center;
+}
+.search{
+        flex: 1;
+        height: 34px;
+        padding-left: 10px;
+        font-size: 16px;
+        border-radius: 1px;
+        border-style: solid;
+        border-color: rgb(225, 223, 223);
+        border-radius: 2px;
+        box-shadow: inset 1px 2px 2.5px 
+        rgb(0, 0, 0, 0.03);
+
+}
+.search::placeholder{
+        font-family: Robot, arial;
+        font-size: 16px;
+}
+.search-button{
+        width: 66px;
+        height: 39px;
+        background-color: rgb(240,240,240);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(192, 192, 192);
+        margin-left: -2px;
+         margin-right: 10px;
+         border-radius: 2px;
+       
+        
+}
+.search-ions{
+        height: 25px;
+        margin-top: 4px;
+        
+}
+.voice-button{
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(255, 255, 255);
+       
+}
+.voice-ions{
+        height: 24px;
+        margin-top: 4px;
+        
+}
+.right-section{
+        width: 180px;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.upload-ions{
+        height: 24px;
+}
+.youtube-app-ions{
+                height: 24px;
+                width: 24px;       
+}
+.notification-ions{
+        height:24px;
+}
+.my-channels{
+        height: 32px;
+}
